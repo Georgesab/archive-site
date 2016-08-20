@@ -1,6 +1,11 @@
 @import 'https://fonts.googleapis.com/css?family=Roboto';
 
 
+h4 {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
 .navbar .navbar-header a:hover, .navbar .navbar-header a:focus,  .navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus   {
     background: white;
     color: black;
