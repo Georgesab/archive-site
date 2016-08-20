@@ -1,28 +1,29 @@
 @import 'https://fonts.googleapis.com/css?family=Roboto';
 
 
+.navbar .navbar-header a:hover, .navbar .navbar-header a:focus,  .navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus   {
+    background: white;
+    color: black;
+    outline: none;
+
+}
+
 /* Navbar */
 .navbar {
-    opacity: 0.955;
-    box-shadow: 0 2px 15px grey;
+    opacity: 0.95;
     overflow: none;
-    
-    background: black;
-   
+    background: #212121;
 }
 
-.navbar .navbar-brand {
-    color:white;
-}
-
-.navbar .navbar-nav li a {
- color:white;
+.navbar .navbar-nav li a, .navbar .navbar-brand {
+    color: white;
 }
 
 .navbar-nav li {
-    padding-left: 3vw;
-    overflow: none;
+    padding-left: 10vw;
 }
+
+
 
 /* Bulk of site */
 
@@ -50,7 +51,8 @@ body {
 }
 
 .section {
-    background-color: white;
+    padding-top: 150px;
+    background-color: whitesmoke;
     color: black;
     margin-bottom: 80px;
     padding: 20px;
